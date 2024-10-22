@@ -1,8 +1,12 @@
 /**
- * Main class
+ * Main class to demonstrate the TextEditor decorators.
  */
-
 public class Main {
+
+    /**
+     * Main method to run the demonstration.
+     * @param args command line arguments.
+     */
     public static void main(String[] args) {
         TextEditor simpleText = new SimpleText();
         simpleText.setText("Hello World");
